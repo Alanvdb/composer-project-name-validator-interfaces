@@ -6,5 +6,5 @@ use AlanVdb\Validator\ValidatorInterface;
 
 interface ComposerProjectNameValidatorFactoryInterface
 {
-    public function create() : ValidatorInterface;
+    public function create(string $errorMessage = 'The project name must be in the format vendor/package.') : ValidatorInterface;
 }
