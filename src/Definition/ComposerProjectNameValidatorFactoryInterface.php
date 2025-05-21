@@ -2,7 +2,7 @@
 
 namespace AlanVdb\Composer\Definition;
 
-use AlanVdb\Validator\ValidatorInterface;
+use AlanVdb\Validator\Definition\ValidatorInterface;
 
 interface ComposerProjectNameValidatorFactoryInterface
 {
